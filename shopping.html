@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!--<meta charset="utf-8" />-->
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/nubia.css" />
+		<link rel="stylesheet" type="text/css" href="css/layout.css" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="font2/iconfont.css" />
+		<script src="js/nubia.js"></script>
+		<script src="js/animate6.0.js"></script>
+		<script src="js/public.js"></script>
+	</head>
+
+	<body>
+		<!------------------导航栏--------------->
+		<div class="nav">
+			<div class="main">
+				<a href="#"><img alt="Nubia" height="50px" src="//oss.static.nubia.cn/resources/images/nubia-logo-inverse-x2-cn.png?v=1566781464" style="margin-top: 6px;"></a>
+				<ul>
+					<li>
+						<a href="" style="color:#fff ;">商城</a>
+					</li>
+					<li>
+						<a href="" style="color:#fff ;">手机</a>
+					</li>
+					<li>
+						<a href="" style="color:#fff ;">红魔手机</a>
+					</li>
+					<li>
+						<a href="" style="color:#fff ;">配件</a>
+					</li>
+					<li>
+						<a href="" style="color:#fff ;">摄影</a>
+					</li>
+					<li>
+						<a href="" style="color:#fff ;">服务</a>
+					</li>
+					<li>
+						<a href="" style="color:#fff ;">体验店</a>
+					</li>
+					<li>
+						<a href="" style="color:#fff ;">社区</a>
+					</li>
+					<li>
+						<a href="" style="color:#fff ;">nubia UI</a>
+					</li>
+				</ul>
+				<div class="all">
+					<input type="text" name="" class="select" value="" placeholder="红魔3" />
+					<a href="">
+						<p class="iconfont iconsousuo" style="font-size: 18px;"></p>
+					</a>
+				</div>
+				<a href=""><span class="iconfont icongerenzhongxin" style="font-size: 25px;"></span></a>
+				<a href=""><span class="iconfont icontubiaozhizuomoban" style="font-size: 25px;"></span></a>
+			</div>
+		</div>
+		<!------------------导航栏end--------------->
+
+		<!--<div class="banner">
+
+			<img src="images/l1.jpg" />
+			<div class="floor">
+				<ul style="padding-top: 10px;">
+	            	<li>红魔系列</li>
+	            	<li>红魔系列</li>
+	            	<li>红魔系列</li>
+	            	<li>红魔系列</li>
+	            	<li>红魔系列</li>
+	            	<li>红魔系列</li>
+	            </ul>
+            </div>
+            <ul class="touMing" style="height: 520PX;width: 240px;
+            position:absolute;left: 351px;top:65px;background:#FFFFFF;
+            display: none;">
+            	<li style="padding-top: 10px;">红魔系列</li>
+            	<li>红魔系列</li>
+            	<li>红魔系列</li>
+            	<li>红魔系列</li>
+            	<li>红魔系列</li>
+            	<li>红魔系列</li>
+            </ul>
+            
+		</div>-->
+		
+		
+		<div class="banner" id="banner">
+			<ul class="img-list" id="img-list">
+				<li index="0"><img src="images/b1.jpg"></li>
+				<li index="1"><img src="images/b2.jpg"></li>
+				<li index="2"><img src="images/b3.jpg"></li>
+				<li index="3"><img src="images/b4.jpg"></li>
+				<li index="4"><img src="images/b5.jpg"></li>
+				<li index="5"><img src="images/b6.jpg"></li>
+				<li index="0"><img src="images/b1.jpg"></li>
+			</ul>
+
+			<ul class="banner-nav-list" id="banner-nav-list">
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div id="arr">
+				<div class="toLeft" id="toLeft"></div>
+				<div class="toRight" id="toRight"></div>
+			</div>
+			
+			
+			
+			<!------------透明部分------------->
+			<div class="floor">
+				<ul style="padding-top: 10px;">
+	            	<li class="on">红魔系列
+	            		<ol class="touMing" style="height: 520PX;width: 240px;
+			            position:absolute;left: 240px;top:0;background:#FFFFFF;
+			            padding-top: 10px;opacity: 1">
+			            	<li><img src="images/t1.png" style="float: left;margin-top: 6px;"/>
+			            	<li style="color: red;font-size: 48px;padding-left: 35px;">"红"</li>
+			            	<li>魔</li>
+			            	<li>系</li>
+			            	<li>列</li>
+			            	
+			            </ol>
+				    </li>
+	            	<li class="on">阿尔法
+	            	   <ol class="touMing" style="height: 520PX;width: 240px;
+			            position:absolute;left: 240px;top:0;background:#FFFFFF;
+			            padding-top: 10px;opacity: 1">
+			            	<li><img src="images/t2.png" style="float: left;padding-top: 6px;"/>
+			            	<li style="color:purple;">阿</li>
+			            	<li style="color:purple;font-size: 48px;padding-left: 54px;">尔</li>
+			            	<li style="color:purple;">法</li>
+			            	
+			            	
+			            </ol>
+	            	</li>
+	            	<li class="on">X
+	            		<ol class="touMing" style="height: 520PX;width: 240px;
+			            position:absolute;left: 240px;top:0;background:#FFFFFF;
+			            padding-top: 10px;opacity: 1">
+			            	<li><img src="images/t3.png" style="float: left;padding-top: 6px;"/>
+			            	<li style="color:lawngreen;font-size: 68px;margin-bottom: 10px;">X</li>
+			            	<li style="font-size: 32px;">系</li>
+			            	<li>列</li>
+			            	
+			            </ol>
+	            	</li>
+	            	<li class="on">Z系列
+	            		<ol class="touMing" style="height: 520PX;width: 240px;
+			            position:absolute;left: 240px;top:0;background:#FFFFFF;
+			            padding-top: 10px;opacity: 1">
+			            	<li><img src="images/t4.png" style="float: left;padding-top: 6px;"/>
+			            	
+			            	<li>系</li>
+			            	<li>列</li>
+			            	<li style="color:deepskyblue;margin-left: 3px;font-size: 66px;margin-top: 15px;">Z</li>
+			            </ol>
+	            	</li>
+	            	<li class="on">周边配件
+	            		<ol class="touMing" style="height: 520PX;width: 240px;
+			            position:absolute;left: 240px;top:0;background:#FFFFFF;
+			            padding-top: 10px;opacity: 1">
+			            	<li><img src="images/t5.png" style="float: left;margin-top: 6px;"/>
+			            	<li style="color: orangered;padding-left: 35px;font-size: 48px;">"周</li>
+			            	<li style="color: greenyellow;padding-left: 55px;">边"</li>
+			            	<li>配</li>
+			            	<li>件</li>
+			            
+			            </ol>
+	            	</li>
+	            	<li class="on">专属配件
+	            		<ol class="touMing" style="height: 520PX;width: 240px;
+			            position:absolute;left: 240px;top:0;background:#FFFFFF;
+			            padding-top: 10px;opacity: 1">
+			            	<li><img src="images/t7.png" style="float: left;margin-top: 6px;"/>
+			            	<!--<li style="padding-left: 50px;color:yellow;">"专</li>-->
+			            	<li style="color: deeppink;padding-left: 45px;">"专</li>
+			            	<li style="color: yellow;font-size: 48px;padding-left:55px;">属"</li>
+			            	<li>配</li>
+			            	<li>件</li>
+			            	
+			            </ol>
+	            	</li>
+	            </ul>
+            </div>
+            
+           
+            
+		</div>
+       <!-----------我是轮播图------------>
+
+
+
+		<div style="height: 2196px;box-sizing: border-box;margin-top: 10px;margin-bottom:30px;">
+			<div class="main">
+				<div class="two-dimensionCode">
+
+					<ul>
+						<li>
+							<a href="https://shop.nubia.com/recycle.php?v=1566781464">
+								<span class="iconfont iconyijiuhuanxintubiao05"></span>
+								<p>以旧换新</p>
+							</a>
+						</li>
+                        <li>
+							<a href="https://account.nubia.com/profile/login/?back_
+								url=https%3A%2F%2Fwww.nubia.com%2Fprofile
+								.php%3Fa%3Dlogin%26returnUrl%3D%2Fnbcode.php">
+								<span class="iconfont iconyijiuhuanxintubiao05"></span>
+								<p>NB码通道</p>
+							</a>
+						</li><li>
+							<a href="https://shop.nubia.com/insurance.php?a=presentInfo">
+								<span class="iconfont iconyijiuhuanxintubiao05"></span>
+								<p>碎屏宝</p>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.nubia.com/active/762460b1da61e90.html?v=1566781464">
+								<span class="iconfont iconyijiuhuanxintubiao05"></span>
+								<p>真伪查询</p>
+							</a>
+						</li>
+						<li>
+							<a href="https://shop.nubia.com/servicecenter.php">
+								<span class="iconfont iconyijiuhuanxintubiao05"></span>
+								<p>售后网点</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://ui.nubia.cn/rom">
+								<span class="iconfont iconyijiuhuanxintubiao05"></span>
+								<p>软件下载</p>
+							</a>
+						</li>
+					</ul>
+                 <!------------------六小龄童------------------->
+
+
+					<div class="right">
+						<img src="images/w5.jpg" />
+					</div>
+					<div class="right">
+						<img src="images/w6.jpg" />
+					</div>
+					<div class="right">
+						<img src="images/w7.jpg" />
+					</div>
+				</div>
+			</div>
+			<!------------我是那个二维码那里的------------->
+
+
+
+			<!-----------------第一部分----------start---------->
+			<div class="main">
+				<div class="title">
+					<h2>热销机型</h2>
+					<a href="https://shop.nubia.com/phone" class="other">查看更多<i><img src="images/g8.gif"/></i></a>
+				</div>
+			</div>
+			<!-----------好多图片那里哦!------------------>
+			<div class="main">
+				<div class="box">
+					<div class="phone">
+						<img src="images/h1.jpg" />
+					</div>
+					<!---------------第一张大图--------------->
+
+					<div class="hongmo">
+						<img src="images/h2.png" />
+						<h4>红魔3</h4>
+						<p>骁龙855</p>
+						<div class="price">
+							<span>￥2999</span>
+							<em>|</em>
+							<p>3499</p>
+						</div>
+					</div>
+					<!-----------------------第一张图-------------------->
+
+					<div class="hongmo">
+						<img src="images/h9.png" />
+						<h4>努比亚阿尔法</h4>
+						<p>可以穿戴的手机</p>
+						<div class="price" style="margin-left: 56px;">
+							<span style="color:#f35c49;font-size: 16px;float: left;display: block;">￥2499</span>
+							<div style="color: #cccccc;float: left;margin:0 5px;">
+								￥2999
+							</div>
+							<em style="background: #ff8d00;color: white;float: left;display: block;
+							font-size: 12px;font-style: normal;border-radius: 3px;padding:2px;">王者会员价</em>
+						</div>
+					</div>
+					<!-----------------------第二张图-------------------->
+
+					<div class="hongmo" style="margin-left: 0;">
+						<img src="images/p5.jpg" />
+						<h4>X</h4>
+						<p>双屏黑科技</p>
+						<div class="price">
+							<span>￥2199</span>
+							<em>|</em>
+							<p>3299</p>
+						</div>
+					</div>
+					<!-----------------------第三张图-------------------->
+
+					<div class="hongmo">
+						<img src="images/p6.jpg" />
+						<h4>红魔Mars电竞手机</h4>
+						<p>骁龙845</p>
+						<div class="price">
+							<span>￥1899</span>
+							<em>|</em>
+							<p>2699</p>
+						</div>
+					</div>
+					<!-----------------------第四张图-------------------->
+
+					<div class="hongmo">
+						<img src="images/p8.jpg" />
+						<h4>Z18</h4>
+						<p>无边水滴屏</p>
+						<div class="price">
+							<span>￥2699</span>
+							<em>|</em>
+							<p>3299</p>
+						</div>
+					</div>
+					<!-----------------------第五张图-------------------->
+
+					<div class="hongmo">
+						<img src="images/p7.png" />
+						<h4>Z18mini</h4>
+						<p>2400万双摄</p>
+						<div class="price">
+							<span>￥1599</span>
+							<em>|</em>
+							<p>2099</p>
+						</div>
+					</div>
+					<!-----------------------第六张图-------------------->
+				</div>
+			</div>
+			<!-----------------第一部分----------end---------->
+
+
+
+			<!-----------------第二部分----------start---------->
+			<div class="main">
+				<div class="title2">
+					<h2>精选配件</h2>
+					<a href="https://shop.nubia.com/phone">查看更多<i><img src="images/g8.gif"/></i></a>
+				</div>
+			</div>
+			<!-----------好多图片那里哦!------------------>
+			<div class="main">
+				<div class="box2">
+					<div class="phone2">
+						<img src="images/p14.jpg" />
+					</div>
+					<!---------------第一张大图--------------->
+
+					<div class="peijian">
+						<img src="images/p4.png" />
+						<h4>红魔弾夹移动电源</h4>
+
+						<div class="price">
+							<h5 style="color:#f35c49;font-size: 16px;float: left;margin-left: 126px;">￥149</h5>
+
+						</div>
+					</div>
+					<!-----------------------第一张图-------------------->
+
+					<div class="peijian">
+						<img src="images/p12.png" />
+						<h4>红魔3电竞魔盒</h4>
+
+						<div class="price">
+							<h5 style="color:#f35c49;font-size: 16px;float: left;margin-left: 126px;">￥199</h5>
+
+						</div>
+					</div>
+					<!-----------------------第二张图-------------------->
+
+            
+					<div class="peijian" style="margin-left: 0;">
+						<img src="images/p13.png" />
+						<h4>红魔3双滑轨保护套</h4>
+
+						<div class="price">
+							<h5 style="color:#f35c49;font-size: 16px;float: left;margin-left: 126px;">￥79</h5>
+
+						</div>
+					</div>
+					<!-----------------------第三张图-------------------->
+
+					<div class="peijian">
+						<img src="images/p10.png" />
+						<h4>红魔Mars手柄专用保护套</h4>
+
+						<div class="price">
+							<h5 style="color:#f35c49;font-size: 16px;float: left;margin-left: 126px;">￥49</h5>
+
+						</div>
+					</div>
+					<!-----------------------第四张图-------------------->
+
+					<div class="peijian">
+						<img src="images/p11.png" />
+						<h4>红魔3电竞向量保护套</h4>
+
+						<div class="price">
+							<h5 style="color:#f35c49;font-size: 16px;float: left;margin-left: 126px;">￥29</h5>
+
+						</div>
+					</div>
+					<!-----------------------第五张图-------------------->
+
+					<div class="peijian">
+						<img src="images/p3.png" />
+						<h4>nubia  pods &nbsp;(时尚真无线耳机)</h4>
+
+						<div class="price">
+							<h5 style="color:#f35c49;font-size: 16px;float: left;margin-left: 100px;">￥499</h5>
+							<em style="font-style: normal;float: left;padding: 0 3px;color: #cccccc;">|</em>
+							<p style="color: #cccccc;float: left;font-size: 14px;">799</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-----------------------第六张图-------------------->
+		<!-----------------第二部分----------end---------->
+		
+
+		<!----------------第三部分------------------start------>
+		<div class="goods">
+
+			<div class="main">
+				<div class="title3">
+					<h2>产品热评</h2>
+					<a href="https://shop.nubia.com/viewnews.php">查看更多<i><img src="images/g08.gif"/></i></a>
+				</div>
+				<!----------------------标题党------------------>
+
+				<ul class="girl">
+					<li style="margin-left: 0;">
+						<img src="images/r4.jpg" />
+						<div class="magic">
+							<h3>拯救安卓手游的"魔"物来了</h3>
+							<p>一键入"魔",火力全开</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/r3.jpg" />
+						<div class="magic">
+							<h3>设计出彩的双屏手机非你莫属</h3>
+							<p>突破性设计-双面屏</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/r2.jpg" />
+						<div class="magic">
+							<h3>无边框遇上水滴屏,[无界]诞生</h3>
+							<p>探索世界,你值得拥有</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/r1.jpg" />
+						<div class="magic">
+							<h3>我的字典里没有"怂",只有"刚"</h3>
+							<p>第一部游戏手机</p>
+						</div>
+					</li>
+				</ul>
+				<!-----------------------四张图------------------>
+			</div>
+
+			<!----------------第三部分------------------end------------->
+
+			<!----------------第四部分------------------start------>
+			<div class="video">
+
+				<div class="main">
+					<div class="title4">
+						<h2>视频</h2>
+						<a href="https://shop.nubia.com/video.php">查看更多<i><img src="images/g08.gif"/></i></a>
+					</div>
+					<!----------------------标题党------------------>
+
+					<ul class="boy">
+						<li style="margin-left: 0;">
+							<img src="images/s2.jpg" />
+							<div class="magical">
+								<h3>Z20</h3>
+								<p>4800万超清双屏自拍</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/s1.jpg" />
+							<div class="magical">
+								<h3>红魔3</h3>
+								<p>5000mAh电池+27W快充</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/s3.jpg" />
+							<div class="magical">
+								<h3>努比亚阿尔法</h3>
+								<p>可以穿戴的手机</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/s4.jpg" />
+							<div class="magical">
+								<h3>红魔Mars电竞手机</h3>
+								<p>骁龙845</p>
+							</div>
+						</li>
+					</ul>
+					<!-----------------------四张图------------------>
+				</div>
+
+			</div>
+			<!----------------第四部分------------------end------>
+
+			<div class="main">
+				<div class="waiting">
+					<div class="title5">
+						<h2>服务</h2>
+						<a href="https://shop.nubia.com/service.php">查看更多<i><img src="images/g08.gif"/></i></a>
+					</div>
+
+					<div class="last">
+						<div class="left">
+							<span class="iconfont iconshouhou" style="margin:50px;font-size: 76px;float:left;"></span>
+
+							<div style="float: left;width: 360px;height: 64px;">
+								<h4 style="font-size:20px;margin-top: 50px;font-weight: 200;">售后政策</h4>
+								<p style="font-size:16px;color: #999999;">了解nubia努比亚的服务和保修等相关政策</p>
+							</div>
+
+						</div>
+
+						<div class="right">
+							<span class="iconfont iconshezhi" style="margin:50px;font-size: 76px;float:left;"></span>
+
+							<div style="float: left;width: 360px;height: 64px;">
+								<h4 style="font-size:20px;margin-top: 50px;font-weight: 200;">特色服务</h4>
+								<p style="font-size:16px;color: #999999;">我们为您准备了一系列与众不同的服务内容，从意外宝到上门服务，通过电话及服务网点获取支持或安排维修。
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-----------------------最后一部分来了--------------------------->
+		<div class="container">
+			<div class="main">
+				<div class="all2">
+					<div class="add-1">
+						<a href="">
+							<p>关于我们</p>
+						</a>
+						<a href="">
+							<h4>关于nubia</h4></a>
+						<a href="">
+							<h4>产品热评</h4></a>
+						<a href="">
+							<h4>体验店</h4></a>
+						<a href="">
+							<h4>新闻中心</h4></a>
+						<a href="">
+							<h4>视频长廊</h4></a>
+						<a href="">
+							<h4>联系我们</h4></a>
+						<a href="">
+							<h4>企业购</h4></a>
+						<a href="">
+							<h4>友情链接</h4></a>
+						<a href="">
+							<h4>合作伙伴</h4></a>
+					</div>
+					<div class="add-2">
+						<a href="">
+							<p>手机</p>
+						</a>
+						<a href="">
+							<h4>Z20</h4></a>
+						<a href="">
+							<h4>红魔3</h4></a>
+						<a href="">
+							<h4>阿尔法</h4></a>
+						<a href="">
+							<h4>红魔Mars游戏电竞手机</h4></a>
+						<a href="">
+							<h4>X</h4></a>
+						<a href="">
+							<h4>Z18</h4></a>
+						<a href="">
+							<h4>Z18mimi</h4></a>
+					</div>
+					<div class="add-3">
+						<a href="">
+							<p>配件</p>
+						</a>
+						<a href="">
+							<h4>保护套</h4></a>
+						<a href="">
+							<h4>耳机</h4></a>
+						<a href="">
+							<h4>数据线/充电器</h4></a>
+						<a href="">
+							<h4>周边产品</h4></a>
+					</div>
+					<div class="add-4">
+						<a href="">
+							<p>服务中心</p>
+						</a>
+						<a href="">
+							<h4>个人中心</h4></a>
+						<a href="">
+							<h4>售后服务</h4></a>
+						<a href="">
+							<h4>售后网点</h4></a>
+						<a href="">
+							<h4>特殊服务</h4></a>
+						<a href="">
+							<h4>软件下载</h4></a>
+						<a href="">
+							<h4>产品安全</h4></a>
+					</div>
+					<div class="add-5">
+						<a href="">
+							<p>关注我们</p>
+						</a>
+						<a href="">
+							<h4>官方社区</h4></a>
+						<a href="">
+							<h4>新浪微博</h4></a>
+					</div>
+					<div class="add-6">
+						<a href="">
+							<p>全国热线服务</p>
+						</a>
+						<a href=""><span class="iconfont icondianhua" style="font-size: 16px;color:#ccc">&nbsp;&nbsp;400-700-6600</span></a>
+						<br>
+						<span style="font-size: 12px;color:#939595">周一到周日&nbsp;&nbsp;8:30-20:30</span>
+						<p style="font-size: 12px;color:#939595">(全年无休)</p>
+						<div class="kefu">
+							<a href="">
+								<h4 class="iconfont iconweixin">&nbsp;&nbsp;在线客服</h4></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------页面end--------------->
+		<div class="footer">
+			<div class="main">
+				<div class="footer-1">
+					<a href="">
+						<p><img src="//static.nubia.cn/v2/images/nubia-logo-x2.png?v=1566781545" alt="" /></p>
+					</a>
+				</div>
+				<div class="footer-2">
+					<p>
+						<a href=""><span class="iconfont iconlogo-weibo" style="font-size: 32px;color:#ccc"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href=""><span class="iconfont iconweixin" style="font-size: 32px;color:#ccc"></span></a>
+					</p>
+				</div>
+				<div class="footer-3">
+					<a href="">
+						<p>2012-2019 努比亚技术有限公司 版权所有 &nbsp;&nbsp;|&nbsp;&nbsp;隐私政策&nbsp;&nbsp;|&nbsp;&nbsp;关于Cookie&nbsp;&nbsp;</p>
+					</a>
+				</div>
+				<div class="footer-4">
+					<p>
+						<img src="//oss.static.nubia.cn/active/5c416b62880a275.png?v=1566781545" alt="" /><span>&nbsp;&nbsp;粤ICP备10006213号&nbsp;&nbsp; </span>
+						<img src="//oss.static.nubia.cn/upload/57fc5f6def76275.jpg?v=1566781545" alt="" /><span>&nbsp;&nbsp;ICP经营许可证编号：粤B2-20120688&nbsp;&nbsp; </span>
+						<img src="//oss.static.nubia.cn/upload/57c5599015f1558.png?v=1566781545" alt="" /><span>&nbsp;&nbsp;粤公网安备 44030502000309号&nbsp;&nbsp; </span>
+					</p>
+				</div>
+				<div class="footer-5">
+					<p>
+						<a href=""><img src="https://rr.knet.cn/static/images/logo/cnnic.png" alt="" /></a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!------------------底部end--------------->
+		
+		
+		<!---------底部图标------------>
+		<div class="bottom" style="position: fixed;bottom: 10px;
+		     right: 10px;background: greenyellow;width:100px;height: 300px;">
+			<a href="" class="iconfont icontianjia"></a>
+			<a href="" class="iconfont iconshezhi" class="go"></a>
+		</div>
+	</body>
+
+</html>
